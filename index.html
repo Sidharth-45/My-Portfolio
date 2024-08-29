@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sidharth Pradhan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fe0563c05c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sidharth</div>
+            <div class="right"></div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</li></a>
+                <li><a href="#about">About</li></a>
+                <li><a href="#services">Services</li></a>
+                <li><a href="#portfolio">Portfolio</li></a>
+                <li><a href="#contacts">Contact</li></a>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello! My name is <span class="purple">Sidharth</span>
+                <div>And I am an enthusiastic </div>
+                <!-- <div class="lavender">Web Developer</div>  -->
+                <span id="element"></span>
+            </div>
+
+            <div class="rightsection">
+                <img src="sidhu main.png" alt="" height="600" width="500">
+            </div>
+        </section>
+
+        <!-- ----------About---------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="sidhu.jpg" alt="" height="650" width="530">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            Hello! I’m Sidharth Kumar Pradhan, a dedicated and enthusiastic Computer Science student at
+                            Ravenshaw University, Cuttack. My academic journey has equipped me with a strong foundation
+                            in programming, algorithms, and software development. I thrive on solving complex problems
+                            and am driven by a passion for technology and innovation.
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Designing</span><br>Designing the Web pages</li>
+                                <li><span>Web Developer</span><br>Developing Web sites</li>
+                                <li><span>Graphics Designing</span><br>Designing the Web interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Aug-2024(Current)</span><br>Intern at Codsoft</li>
+                                <li><span>Aug-2024(Current)</span><br>Intern at LetsGrowMore</li>
+                                <li><span>Aug-Oct(2024)(Current)</span><br>Intern at Acmegrade</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021</span><br>12th Passout from JNV Ganjam</li>
+                                <li><span>2022-2025</span><br>Bsc. Computer Science from Ravenshaw University</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------Services---------------->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Developer</h2>
+                        <p>Creating the websites and applications that power the online experiences. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>Graphics Designer</h2>
+                        <p>Creating compelling visuals that not only attract attention but also communicate a brand's message effectively</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------Portfolio----------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?" height="400"
+                            width="400" alt="">
+                        <div class="layer">
+                            <h3>Web Designing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nesciunt?</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://images.unsplash.com/photo-1519408469771-2586093c3f14?" height="400"
+                            width="400" alt="">
+                        <div class="layer">
+                            <h3>Graphics Designing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nesciunt?</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://mapsystemsindia.com/images/resource/sharpening.webp" height="400" width="400"
+                            alt="">
+                        <div class="layer">
+                            <h3>Adobe Photoshop</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nesciunt?</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!-- --------Contacts----------->
+
+        <div id="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>
+                        <a href="mailto:sidharthpradhan445@gmail.com">sidharthpradhan445@gmail.com</a>
+                        </p>
+                        <p> <i class="fa-solid fa-phone"></i> 0123456789</p>
+                        <p><i class="fa-solid fa-location-dot"></i>
+                        <a href="https://www.google.com/maps/place/East+Hostel/@20.4650575,85.8960891,17z/data=!4m6!3m5!1s0x3a190d7bb79cfe8d:0x81c965f8049fc50!8m2!3d20.4650249!4d85.896364!16s%2Fg%2F1tffmrzl?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D">East Hostel, Ravenshaw University Campus, Cuttack, Odisha 753003</a>
+                        </p>
+                        <div class="social-icons">
+                            <a href="https://github.com/Sidharth-45"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://x.com/_Sidhu45_"><i class="fa-brands fa-square-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/__sidhu45__/"><i
+                                    class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sidharth-pradhan-900b60200/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="My CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-solid fa-copyright"></i> Copyright @ Sidhu. </p>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer.', 'Web Designer.', 'Graphics Designer.'],
+            typeSpeed: 50,
+        });
+
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.top = "0";
+        }
+        function closemenu() {
+            sidemenu.style.top = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxWPhllMsrDfsWfA6wL75xX1BB_Xcfv4vktUhl29BLlWBGk8cdajFcXAUPLtgcevubbdg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
